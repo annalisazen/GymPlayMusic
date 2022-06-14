@@ -1,2 +1,2 @@
 # GymPlayMusic
-sito esame informatica
+sito esame informatica umanistica
