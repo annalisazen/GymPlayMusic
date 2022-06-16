@@ -44,13 +44,29 @@ h6 {
   font-weight: 100;
   color: #151948;
 }
+#sottotitolo {
+  font-family: 'Yeseva One', cursive;
+  font-size: 50px;
+  font-weight: 50;
+  color: #151948;
+}
+#titoloparagrafo {
+ font-family: 'Yeseva One', cursive;
+  font-size: 30px;
+  font-weight: 30;
+  color: #5e629c; 
+}
 
 ul {
-  margin: 0;
-  padding: 0; }
+  margin: 5pt;
+  padding: 5pt; }
 
 ul li {
   list-style: none; }
+
+#doc {
+  color:#5e629c;
+}
 
 a:hover,
 a:focus {
