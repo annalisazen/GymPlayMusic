@@ -41,12 +41,11 @@
   </head>
   
 
-
+<body>
     <!-- Header Section Start -->
     <header id="home" class="hero-area">    
       <div class="overlay overlay1">
-        <span></span>
-        <span></span>
+        
       </div>
       <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
         <div class="container">
@@ -78,6 +77,9 @@
 <!-- Button to open the modal login form -->
                 <a class="btn btn-singin" href="#" onclick="document.getElementById('id01').style.display='block'">Login
                 <i class="fa-solid fa-user"></i> </a>
+              </li>
+            </ul>
+          </div>
 <!-- The Modal -->
 <div id="id01" class="modal">
   <span onclick="document.getElementById('id01').style.display='none'" 
@@ -102,8 +104,6 @@
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
-   
-    <!--<span class="psw"> <a href="#"> Forgot password?</a></span>-->
     </div>
   </form>
 </div>
@@ -117,13 +117,11 @@ window.onclick = function(event) {
   if (event.target == modal) {modal.style.display = "none";}
 }
 </script>
-
-              </li>
-            </ul>
-          </div>
+               
         </div>
       </nav>  
-      <div class="container">      
+      
+  <div class="container">      
         <div class="row space-100">
           <div class="col-lg-6 col-md-12 col-xs-12">
             <div class="contents">
@@ -150,7 +148,7 @@ window.onclick = function(event) {
       </div>             
     </header>
     <!-- Header Section End --> 
-
+<main>
 <!--Section FLOOR start-->
 <section id="floor" class="section">
   <div class="container">
@@ -293,9 +291,7 @@ window.onclick = function(event) {
       </div>
     </section>     
     <!--Section MusicMIX end-->
-
-
-
+</main>
 
 <!-- FOOTER Section Start -->
     <footer>
